@@ -57,18 +57,22 @@ The lxca module needs xclarity_client gem to be installed.
 ### Types and Providers
 In this POC, 3 types and the respective providers have been implemented - lxca_node, lxca_chassis, lxca_resource
 
+
 lxca_nodes accepts the following ensurable methods:
 discover_all, discover_managed, discover_unmanaged, filter_by_chassis, filter_by_uuid, power_on, power_off, power_restart, blink_led, turn_on_led, turn_off_led
+
 
 lxca_chassis accepts the following ensurable methods:
 discover_all, discover_managed, discover_unmanaged, filter_by_uuid
 
+
 lxca_resource is a placeholder for ffdc events and other operations that does not logically fall under any resource and is more of a property of the whole LXCA. This will be implemented as requirements are encountered.
+
 
 A sample manifest is provided below that demonstrates the usage of lxca_node and lxca_chassis:
 
 ```puppet
-de{'list_all':
+lxca_node{'list_all':
   base_url => 'https://10.243.10.75',
   login_user => 'Admin',
   login_password => 'Admin123',
