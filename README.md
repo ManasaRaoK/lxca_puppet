@@ -21,21 +21,21 @@ lxca module is used to interact with Lenovo XClarity™ Administrator resources 
 Lenovo XClarity™ Administrator is a centralized resource management solution that is aimed at reducing complexity, speeding response, and enhancing the availability of Lenovo® server systems and solutions. Using the lxca module, you can interact with the LXCA resources such as nodes, chassis, cmms etc...
 
 In this POC, the supported functionality are:
-a. Listing of all nodes
-b. Listing of managed nodes
-c. Listing of unmanaged nodes
-d. Listing and filtering of nodes using a chassis
-e. Listing and filtering of nodes using a uuid
-f. Power on node
-g. Power off node
-h. Power restart node
-i. Blink LOC LED
-j. Turn on LOC LED
-k. Turn off LOC LED
-l. Listing of all chassis
-m. Listing of managed chassis
-n. Listing of unmanaged chassis
-o. Listing and filtering of chassis using a uuid
+* Listing of all nodes
+* Listing of managed nodes
+* Listing of unmanaged nodes
+* Listing and filtering of nodes using a chassis
+* Listing and filtering of nodes using a uuid
+* Power on node
+* Power off node
+* Power restart node
+* Blink LOC LED
+* Turn on LOC LED
+* Turn off LOC LED
+* Listing of all chassis
+* Listing of managed chassis
+* Listing of unmanaged chassis
+* Listing and filtering of chassis using a uuid
 
 ## Setup
 Once the lxca module becomes a part of the Puppet Forge, it can be installed using the command:
@@ -46,8 +46,8 @@ Till then, download the entire contents of this repository to the directory /etc
 ### What lxca affects
 
 In the current POC, LXCA can interact with the following LXCA resources:
-a. Node
-b. Chassis
+* Node
+* Chassis
 
 ### Setup Requirements **OPTIONAL**
 
@@ -67,7 +67,7 @@ lxca_resource is a placeholder for ffdc events and other operations that does no
 
 A sample manifest is provided below that demonstrates the usage of lxca_node and lxca_chassis:
 
-
+```puppet
 de{'list_all':
   base_url => 'https://10.243.10.75',
   login_user => 'Admin',
@@ -101,7 +101,7 @@ lxca_chassis{'filter_by_uuid':
   ensure => 'filter_by_uuid',
   uuid => 'F44E92339683385A8D97CD6348A6F45F',
 }
-
+```
 
 
 ## Reference
