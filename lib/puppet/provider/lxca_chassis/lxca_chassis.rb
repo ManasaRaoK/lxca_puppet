@@ -55,6 +55,7 @@ Puppet::Type.type(:lxca_chassis).provide(:lxca_chassis) do
   end
 
   def discover_managed_chassis
+    create_client if @client.nil?
     @client.discover_chassis({:status => 'managed'}).map do |chassis|
       chassis.instance_variables.each do |att|
         puts "#{att} - #{chassis.instance_variable_get att}"
@@ -63,6 +64,7 @@ Puppet::Type.type(:lxca_chassis).provide(:lxca_chassis) do
   end
   
   def discover_unmanaged_chassis
+    create_client if @client.nil?
     @client.discover_chassis({:status => 'unmanaged'}).map do |chassis|
       chassis.instance_variables.each do |att|
         puts "#{att} - #{chassis.instance_variable_get att}"
@@ -71,6 +73,7 @@ Puppet::Type.type(:lxca_chassis).provide(:lxca_chassis) do
   end
 
   def filter_by_uuid
+    create_client if @client.nil?
     if @resource[:uuid].nil?
       raise Puppet::Error, _("Attribute uuid is mandatory for the ensurable filter_by_uuid")
     end
