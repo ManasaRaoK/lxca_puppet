@@ -149,8 +149,8 @@ describe Puppet::Type.type(:lxca_node).provider(:lxca_node) do
   end
 
   describe "for power_on" do
-    it "should return an array as a result" do
-      expect(node_with_uuid.provider.power_on).to include(:status)
+    it "should return status as 200" do
+      expect(node_with_uuid.provider.power_on.status).to eq(200)
     end
   end
 
