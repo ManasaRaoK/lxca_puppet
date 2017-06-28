@@ -154,5 +154,34 @@ describe Puppet::Type.type(:lxca_node).provider(:lxca_node) do
     end
   end
 
+  describe "for power_off" do
+    it "should return status as 200" do
+      expect(node_with_uuid.provider.power_off.status).to eq(200)
+    end
+  end
+
+  describe "for power_restart" do
+    it "should return status as 200" do
+      expect(node_with_uuid.provider.power_restart.status).to eq(200)
+    end
+  end
+
+  describe "for blink_led" do
+    it "should return status as 200" do
+      expect(node_with_uuid.provider.blink_led.status).to eq(200)
+    end
+  end
+
+  describe "for turn_on_led" do
+    it "should return status as 200" do
+      expect(node_with_uuid.provider.turn_on_led.status).to eq(200)
+    end
+  end
+
+  describe "for turn_off_led" do
+    it "should return status as 200" do
+      expect(node_with_uuid.provider.turn_off_led.status).to eq(200)
+    end
+  end
 
 end
