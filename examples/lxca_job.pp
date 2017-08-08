@@ -17,36 +17,18 @@
 # limitations under the License.
 ################################################################################
 
-# This manifest contains some sample invocations of lxca_chassis resource type
+# This manifest contains some sample invocations of lxca_job resource type
 
-lxca_chassis{'list_all':
+lxca_job{'list_all':
   host => 'https://10.243.10.75',
-  port => '443',  
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
   ensure => 'discover_all',
 }
 
-lxca_chassis{'list_managed':
-  host => 'https://10.243.10.75',
-  port => '443',
-  login_user => 'Admin',
-  login_password => 'Admin123',
-  verify_ssl => 'NONE',
-  ensure => 'discover_managed',
-}
-
-lxca_chassis{'list_unmanaged':
-  host => 'https://10.243.10.75',
-  port => '443',
-  login_user => 'Admin',
-  login_password => 'Admin123',
-  verify_ssl => 'NONE',
-  ensure => 'discover_unmanaged',
-}
-
-lxca_chassis{'filter_by_uuid':
+lxca_job{'filter_by_deviceid':
   host => 'https://10.243.10.75',
   port => '443',
   login_user => 'Admin',
@@ -56,3 +38,42 @@ lxca_chassis{'filter_by_uuid':
   uuid => 'F44E92339683385A8D97CD6348A6F45F',
 }
 
+lxca_job{'filter_by_jobid':
+  host => 'https://10.243.10.75',
+  port => '443',
+  login_user => 'Admin',
+  login_password => 'Admin123',
+  verify_ssl => 'NONE',
+  ensure => 'filter_by_id',
+  id => '6',
+}
+
+lxca_job{'filter_by_state':
+  host => 'https://10.243.10.75',
+  port => '443',
+  login_user => 'Admin',
+  login_password => 'Admin123',
+  verify_ssl => 'NONE',
+  ensure => 'filter_by_state',
+  state => 'Complete',
+}
+
+lxca_job{'cancel_job':
+  host => 'https://10.243.10.75',
+  port => '443',
+  login_user => 'Admin',
+  login_password => 'Admin123',
+  verify_ssl => 'NONE',
+  ensure => 'cancel_job',
+  id => '289',
+}
+
+lxca_job{'delete_job':
+  host => 'https://10.243.10.75',
+  port => '443',
+  login_user => 'Admin',
+  login_password => 'Admin123',
+  verify_ssl => 'NONE',
+  ensure => 'delete_job',
+  id => '289',
+}

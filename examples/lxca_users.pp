@@ -17,42 +17,24 @@
 # limitations under the License.
 ################################################################################
 
-# This manifest contains some sample invocations of lxca_chassis resource type
+# This manifest contains some sample invocations of lxca_users resource type
 
-lxca_chassis{'list_all':
+lxca_users{'list_all':
   host => 'https://10.243.10.75',
-  port => '443',  
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
   ensure => 'discover_all',
 }
 
-lxca_chassis{'list_managed':
+lxca_users{'filter_by_id':
   host => 'https://10.243.10.75',
   port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
-  ensure => 'discover_managed',
-}
-
-lxca_chassis{'list_unmanaged':
-  host => 'https://10.243.10.75',
-  port => '443',
-  login_user => 'Admin',
-  login_password => 'Admin123',
-  verify_ssl => 'NONE',
-  ensure => 'discover_unmanaged',
-}
-
-lxca_chassis{'filter_by_uuid':
-  host => 'https://10.243.10.75',
-  port => '443',
-  login_user => 'Admin',
-  login_password => 'Admin123',
-  verify_ssl => 'NONE',
-  ensure => 'filter_by_uuid',
-  uuid => 'F44E92339683385A8D97CD6348A6F45F',
+  ensure => 'filter_by_id',
+  id => 'aad6a497-566c-4323-a08e-6fd939defb54',
 }
 

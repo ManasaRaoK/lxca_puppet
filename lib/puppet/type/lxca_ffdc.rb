@@ -17,36 +17,21 @@
 # limitations under the License.
 ################################################################################
 
-Puppet::Type.newtype(:lxca_chassis) do
+Puppet::Type.newtype(:lxca_ffdc) do
 
   ensurable do
     
-    newvalue(:discover_all) do
-      Puppet.notice "Fetching all the LXCA chassis elements. Results displayed below\n"
-      provider.discover_all
-    end
-
-    newvalue(:discover_managed) do
-      Puppet.notice "Fetching all the LXCA managed chassis elements. Results displayed below\n"
-      provider.discover_managed_chassis
-    end
-
-    newvalue(:discover_unmanaged) do
-      Puppet.notice "Fetching all the LXCA unmanaged chassis elements. Results displayed below\n"
-      provider.discover_unmanaged_chassis
-    end
- 
     newvalue(:filter_by_uuid) do
-      Puppet.notice "Fetching LXCA chassis filtered by UUID. Results displayed below\n"
+      Puppet.notice "Fetching LXCA ffdc filtered by UUID. Results displayed below\n"
       provider.filter_by_uuid
     end
     
   end
                                   
   newparam(:name, :namevar => true) do
-    desc "Name of the lxca chassis resource"
+    desc "Name of the lxca ffdc resource"
   end
-
+                                              
   newparam(:host) do
     desc "LXCA Host to connect to"
   end
@@ -74,10 +59,10 @@ Puppet::Type.newtype(:lxca_chassis) do
 
   newparam(:csrf_token) do
     desc "The CSRF token to be used in case authentication type is set to token"
-  end                                              
-                                                                      
+  end
+
   newparam(:uuid) do
-    desc "UUID of the chassis"
+    desc "UUID of the ffdc"
   end
 
   validate do
@@ -93,7 +78,7 @@ Puppet::Type.newtype(:lxca_chassis) do
         raise Puppet::Error, _("Attribute #{param} is mandatory and should not be empty")
       end
     end
-  end
- 
+  end    
+
 end
 

@@ -19,8 +19,8 @@
 
 require 'xclarity_client'
 
-Puppet::Type.type(:lxca_resource).provide(:lxca_resource) do
-  desc 'Base provider for LXCA resource'
+Puppet::Type.type(:lxca_users).provide(:lxca_users) do
+  desc 'User provider for LXCA resource'
   
   def create_client
     conf=XClarityClient::Configuration.new(
@@ -46,8 +46,26 @@ Puppet::Type.type(:lxca_resource).provide(:lxca_resource) do
     @client = nil
   end
 
-  def ffdc_events
+  def discover_all
     create_client if @client.nil?
+    @client.discover_users.map do |user|
+      user.instance_variables.each do |att|
+        puts "#{att} - #{user.instance_variable_get att}"
+      end
+    end
+  end
+
+  def filter_by_id
+    create_client if @client.nil?
+    if @resource[:id].nil?
+      raise Puppet::Error, _("Attribute id is mandatory for the ensurable filter_by_id")
+    end
+
+    @client.fetch_users(["#{@resource[:id]}"]).map do |user|
+      user.instance_variables.each do |att|
+        puts "#{att} - #{user.instance_variable_get att}"
+      end
+    end
   end
 
 end

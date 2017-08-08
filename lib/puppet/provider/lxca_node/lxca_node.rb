@@ -26,8 +26,9 @@ Puppet::Type.type(:lxca_node).provide(:lxca_node) do
     conf=XClarityClient::Configuration.new(
       :username => @resource['login_user'],
       :password => @resource['login_password'],
-      :host => @resource['base_url'],
-      :auth_type => 'basic_auth',
+      :host => @resource['host'],
+      :port => @resource['port'],
+      :auth_type => @resource['auth_type'],
       :verify_ssl => @resource['verify_ssl']
     )
     @client = XClarityClient::Client.new(conf)
@@ -90,7 +91,7 @@ Puppet::Type.type(:lxca_node).provide(:lxca_node) do
       raise Puppet::Error, _("Attribute uuid is mandatory for the ensurable filter_by_uuid")
     end
 
-    @client.discover_nodes({:uuid => "#{@resource[:uuid]}"}).map do |node|
+    @client.fetch_nodes(["#{@resource[:uuid]}"]).map do |node|
       node.instance_variables.each do |att|
         puts "#{att} - #{node.instance_variable_get att}"
       end

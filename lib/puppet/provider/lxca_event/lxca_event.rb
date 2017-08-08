@@ -19,8 +19,8 @@
 
 require 'xclarity_client'
 
-Puppet::Type.type(:lxca_resource).provide(:lxca_resource) do
-  desc 'Base provider for LXCA resource'
+Puppet::Type.type(:lxca_event).provide(:lxca_event) do
+  desc 'Event provider for LXCA resource'
   
   def create_client
     conf=XClarityClient::Configuration.new(
@@ -46,8 +46,13 @@ Puppet::Type.type(:lxca_resource).provide(:lxca_resource) do
     @client = nil
   end
 
-  def ffdc_events
+  def discover_all
     create_client if @client.nil?
+    @client.discover_events.map do |event|
+      event.instance_variables.each do |att|
+        puts "#{att} - #{event.instance_variable_get att}"
+      end
+    end
   end
 
 end

@@ -19,8 +19,8 @@
 
 require 'xclarity_client'
 
-Puppet::Type.type(:lxca_resource).provide(:lxca_resource) do
-  desc 'Base provider for LXCA resource'
+Puppet::Type.type(:lxca_cmm).provide(:lxca_cmm) do
+  desc 'CMM provider for LXCA resource'
   
   def create_client
     conf=XClarityClient::Configuration.new(
@@ -46,8 +46,38 @@ Puppet::Type.type(:lxca_resource).provide(:lxca_resource) do
     @client = nil
   end
 
-  def ffdc_events
+  def discover_all
     create_client if @client.nil?
+    @client.discover_cmms.map do |cmm|
+      cmm.instance_variables.each do |att|
+        puts "#{att} - #{cmm.instance_variable_get att}"
+      end
+    end
+  end
+
+  def filter_by_chassis
+    create_client if @client.nil?
+    if @resource[:chassis].nil?
+      raise Puppet::Error, _("Attribute chassis is mandatory for the ensurable filter_by_chassis")
+    end
+    @client.discover_cmms({:chassis => "#{@resource[:chassis]}"}).map do |cmm|
+      cmm.instance_variables.each do |att|
+        puts "#{att} - #{cmm.instance_variable_get att}"
+      end
+    end
+  end
+
+  def filter_by_uuid
+    create_client if @client.nil?
+    if @resource[:uuid].nil?
+      raise Puppet::Error, _("Attribute uuid is mandatory for the ensurable filter_by_uuid")
+    end
+
+    @client.fetch_cmms(["#{@resource[:uuid]}"]).map do |cmm|
+      cmm.instance_variables.each do |att|
+        puts "#{att} - #{cmm.instance_variable_get att}"
+      end
+    end
   end
 
 end

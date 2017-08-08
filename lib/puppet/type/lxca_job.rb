@@ -17,36 +17,46 @@
 # limitations under the License.
 ################################################################################
 
-Puppet::Type.newtype(:lxca_chassis) do
+Puppet::Type.newtype(:lxca_job) do
 
   ensurable do
     
     newvalue(:discover_all) do
-      Puppet.notice "Fetching all the LXCA chassis elements. Results displayed below\n"
+      Puppet.notice "Fetching all the LXCA job elements. Results displayed below\n"
       provider.discover_all
     end
 
-    newvalue(:discover_managed) do
-      Puppet.notice "Fetching all the LXCA managed chassis elements. Results displayed below\n"
-      provider.discover_managed_chassis
-    end
-
-    newvalue(:discover_unmanaged) do
-      Puppet.notice "Fetching all the LXCA unmanaged chassis elements. Results displayed below\n"
-      provider.discover_unmanaged_chassis
-    end
- 
-    newvalue(:filter_by_uuid) do
-      Puppet.notice "Fetching LXCA chassis filtered by UUID. Results displayed below\n"
-      provider.filter_by_uuid
+    newvalue(:filter_by_id) do
+      Puppet.notice "Fetching all the LXCA job elements filtered by id of the job. Results displayed below\n"
+      provider.filter_by_id
     end
     
+    newvalue(:filter_by_uuid) do
+      Puppet.notice "Fetching LXCA job filtered by UUID of the device. Results displayed below\n"
+      provider.filter_by_uuid
+    end
+   
+    newvalue(:filter_by_state) do
+      Puppet.notice "Fetching LXCA job filtered by state of the job. Results displayed below\n"
+      provider.filter_by_state
+    end
+ 
+    newvalue(:cancel_job) do
+      Puppet.notice "Cancelling the job"
+      provider.cancel_job
+    end
+
+    newvalue(:delete_job) do
+      Puppet.notice "Deleting the job"
+      provider.delete_job
+    end
+
   end
                                   
   newparam(:name, :namevar => true) do
-    desc "Name of the lxca chassis resource"
+    desc "Name for the lxca job resource"
   end
-
+                                              
   newparam(:host) do
     desc "LXCA Host to connect to"
   end
@@ -74,10 +84,18 @@ Puppet::Type.newtype(:lxca_chassis) do
 
   newparam(:csrf_token) do
     desc "The CSRF token to be used in case authentication type is set to token"
-  end                                              
-                                                                      
+  end
+
   newparam(:uuid) do
-    desc "UUID of the chassis"
+    desc "UUID of the device associated with which the jobs are to be fetched"
+  end
+
+  newparam(:id) do
+    desc "ID of the job on which filtering is to be applied"
+  end
+ 
+  newparam(:state) do
+    desc "State of the job based on which the list of jobs is to be filtered"
   end
 
   validate do
@@ -93,7 +111,7 @@ Puppet::Type.newtype(:lxca_chassis) do
         raise Puppet::Error, _("Attribute #{param} is mandatory and should not be empty")
       end
     end
-  end
- 
+  end    
+
 end
 

@@ -20,7 +20,8 @@
 # This manifest contains some sample invocations of lxca_node resource type
 
 lxca_node{'list_all':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -28,7 +29,8 @@ lxca_node{'list_all':
 }
 
 lxca_node{'list_managed':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -36,7 +38,8 @@ lxca_node{'list_managed':
 }
 
 lxca_node{'list_unmanaged':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -44,7 +47,8 @@ lxca_node{'list_unmanaged':
 }
 
 lxca_node{'filter_by_chassis':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -53,7 +57,8 @@ lxca_node{'filter_by_chassis':
 }
 
 lxca_node{'filter_by_uuid':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -62,7 +67,8 @@ lxca_node{'filter_by_uuid':
 }
 
 lxca_node{'power_on':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -71,7 +77,8 @@ lxca_node{'power_on':
 }
 
 lxca_node{'power_off':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -80,7 +87,8 @@ lxca_node{'power_off':
 }
 
 lxca_node{'power_restart':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -89,7 +97,8 @@ lxca_node{'power_restart':
 }
 
 lxca_node{'blink_led':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -98,7 +107,8 @@ lxca_node{'blink_led':
 }
 
 lxca_node{'turn_on_led':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
@@ -107,7 +117,8 @@ lxca_node{'turn_on_led':
 }
 
 lxca_node{'turn_off_led':
-  base_url => 'https://10.243.10.75',
+  host => 'https://10.243.10.75',
+  port => '443',
   login_user => 'Admin',
   login_password => 'Admin123',
   verify_ssl => 'NONE',
