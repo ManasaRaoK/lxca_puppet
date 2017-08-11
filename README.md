@@ -75,7 +75,7 @@ A sample manifest is provided below that demonstrates the usage of lxca_node and
 lxca_node{'list_all':
   base_url => 'https://10.243.10.75',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'discover_all',
 }
@@ -83,7 +83,7 @@ lxca_node{'list_all':
 lxca_node{'blink_led':
   base_url => 'https://10.243.10.75',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'turn_on_led',
   uuid => 'FA59C0BBC43C3C15B9D72B94AFF52B91',
@@ -92,7 +92,7 @@ lxca_node{'blink_led':
 lxca_chassis{'list_managed':
   base_url => 'https://10.243.10.75',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'discover_managed',
 }
@@ -100,7 +100,7 @@ lxca_chassis{'list_managed':
 lxca_chassis{'filter_by_uuid':
   base_url => 'https://10.243.10.75',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'filter_by_uuid',
   uuid => 'F44E92339683385A8D97CD6348A6F45F',

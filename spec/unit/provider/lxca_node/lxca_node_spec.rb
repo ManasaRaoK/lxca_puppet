@@ -29,9 +29,10 @@ describe Puppet::Type.type(:lxca_node).provider(:lxca_node) do
   let :node do
     Puppet::Type.type(:lxca_node).new(
       :name => 'lxca_node',
-      :base_url => 'https://10.243.10.75',
+      :host => 'https://10.243.10.75',
+      :port => '443',
       :login_user => 'Admin',
-      :login_password => 'Admin123',
+      :login_password => 'Lenovo123',
       :verify_ssl => 'NONE',
     )
   end
@@ -39,9 +40,10 @@ describe Puppet::Type.type(:lxca_node).provider(:lxca_node) do
   let :node_with_chassis do
     Puppet::Type.type(:lxca_node).new(
       :name => 'lxca_node',
-      :base_url => 'https://10.243.10.75',
+      :host => 'https://10.243.10.75',
+      :port => '443',
       :login_user => 'Admin',
-      :login_password => 'Admin123',
+      :login_password => 'Lenovo123',
       :verify_ssl => 'NONE',
       :chassis => 'F44E92339683385A8D97CD6348A6F45F'
     )
@@ -50,9 +52,10 @@ describe Puppet::Type.type(:lxca_node).provider(:lxca_node) do
   let :node_with_uuid do
     Puppet::Type.type(:lxca_node).new(
       :name => 'lxca_node',
-      :base_url => 'https://10.243.10.75',
+      :host => 'https://10.243.10.75',
+      :port => '443',
       :login_user => 'Admin',
-      :login_password => 'Admin123',
+      :login_password => 'Lenovo123',
       :verify_ssl => 'NONE',
       :uuid => 'FA59C0BBC43C3C15B9D72B94AFF52B91'
     )
@@ -77,43 +80,43 @@ describe Puppet::Type.type(:lxca_node).provider(:lxca_node) do
   end
 
   describe "for ensurable filter_by_uuid" do
-    it "should have chassis as a parameter" do
+    it "should have uuid as a parameter" do
       expect {node.provider.filter_by_uuid}.to raise_error(Puppet::Error, /Attribute uuid is mandatory for the ensurable filter_by_uuid/)
     end
   end
 
   describe "for ensurable power_on" do
-    it "should have chassis as a parameter" do
+    it "should have uuid as a parameter" do
       expect {node.provider.power_on}.to raise_error(Puppet::Error, /Attribute uuid is mandatory when ensure is set to power_on/)
     end
   end
 
   describe "for ensurable power_off" do
-    it "should have chassis as a parameter" do
+    it "should have uuid as a parameter" do
       expect {node.provider.power_off}.to raise_error(Puppet::Error, /Attribute uuid is mandatory when ensure is set to power_off/)
     end
   end
 
   describe "for ensurable power_restart" do
-    it "should have chassis as a parameter" do
+    it "should have uuid as a parameter" do
       expect {node.provider.power_restart}.to raise_error(Puppet::Error, /Attribute uuid is mandatory when ensure is set to power_restart/)
     end
   end
 
   describe "for ensurable blink_led" do
-    it "should have chassis as a parameter" do
+    it "should have uuid as a parameter" do
       expect {node.provider.blink_led}.to raise_error(Puppet::Error, /Attribute uuid is mandatory when ensure is set to blink_led/)
     end
   end
 
   describe "for ensurable turn_on_led" do
-    it "should have chassis as a parameter" do
+    it "should have uuid as a parameter" do
       expect {node.provider.turn_on_led}.to raise_error(Puppet::Error, /Attribute uuid is mandatory when ensure is set to turn_on_led/)
     end
   end
 
   describe "for ensurable turn_off_led" do
-    it "should have chassis as a parameter" do
+    it "should have uuid as a parameter" do
       expect {node.provider.turn_off_led}.to raise_error(Puppet::Error, /Attribute uuid is mandatory when ensure is set to turn_off_led/)
     end
   end

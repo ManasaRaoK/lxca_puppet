@@ -19,10 +19,10 @@
 
 require 'spec_helper'
 
-describe Puppet::Type.type(:lxca_node) do
+describe Puppet::Type.type(:lxca_users) do
 
   before do
-    @node_example = {
+    @users_example = {
       :host => 'https://10.243.10.75',
       :port => '443',
       :login_user => 'Admin',
@@ -54,48 +54,48 @@ describe Puppet::Type.type(:lxca_node) do
 
   describe "for ensure" do
     it "should not support other values" do
-      expect { described_class.new(:name => 'lxca_node', :ensure => 'foo') }.to raise_error(Puppet::Error, /Invalid value "foo"/)
+      expect { described_class.new(:name => 'lxca_users', :ensure => 'foo') }.to raise_error(Puppet::Error, /Invalid value "foo"/)
     end
 
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_node')[:ensure].should == nil
+      described_class.new(:name => 'lxca_users')[:ensure].should == nil
     end
     
   end
 
   describe "for host" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_node')[:host].should == nil
+      described_class.new(:name => 'lxca_users')[:host].should == nil
     end
   end
 
   describe "for port" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_node')[:port].should == nil
+      described_class.new(:name => 'lxca_users')[:port].should == nil
     end
   end
 
   describe "for login_user" do
     it "should not have a default value" do
-        described_class.new(:name => 'lxca_node')[:login_user].should == nil
+        described_class.new(:name => 'lxca_users')[:login_user].should == nil
     end
   end
 
   describe "for login_password" do
     it "should not have a default value" do
-        described_class.new(:name => 'lxca_node')[:login_password].should == nil
+        described_class.new(:name => 'lxca_users')[:login_password].should == nil
     end
   end
 
   describe "for verify_ssl" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_node')[:verify_ssl].should == nil
+      described_class.new(:name => 'lxca_users')[:verify_ssl].should == nil
     end
   end
 
   describe "for auth_type" do
     it "should have a default value of 'basic_auth" do
-      described_class.new(:name => 'lxca_node', :ensure => 'discover_all')[:auth_type].should == 'basic_auth'
+      described_class.new(:name => 'lxca_users', :ensure => 'discover_all')[:auth_type].should == 'basic_auth'
     end
   end
 

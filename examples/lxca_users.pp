@@ -23,7 +23,7 @@ lxca_users{'list_all':
   host => 'https://10.243.10.75',
   port => '443',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'discover_all',
 }
@@ -32,7 +32,7 @@ lxca_users{'filter_by_id':
   host => 'https://10.243.10.75',
   port => '443',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'filter_by_id',
   id => 'aad6a497-566c-4323-a08e-6fd939defb54',

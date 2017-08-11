@@ -30,6 +30,7 @@ Puppet::Type.type(:lxca_chassis).provide(:lxca_chassis) do
       :port => @resource['port'],
       :auth_type => @resource['auth_type'],
       :verify_ssl => @resource['verify_ssl']
+    )
     @client = XClarityClient::Client.new(conf)
   end
 

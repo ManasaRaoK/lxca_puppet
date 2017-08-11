@@ -17,24 +17,30 @@
 # limitations under the License.
 ################################################################################
 
-# This manifest contains some sample invocations of lxca_canister resource type
+require 'spec_helper'
 
-lxca_canister{'list_all':
-  host => 'https://10.243.10.75',
-  port => '443',
-  login_user => 'Admin',
-  login_password => 'Lenovo123',
-  verify_ssl => 'NONE',
-  ensure => 'discover_all',
-}
+describe Puppet::Type.type(:lxca_event).provider(:lxca_event) do
 
-lxca_canister{'filter_by_uuid':
-  host => 'https://10.243.10.75',
-  port => '443',
-  login_user => 'Admin',
-  login_password => 'Lenovo123',
-  verify_ssl => 'NONE',
-  ensure => 'filter_by_uuid',
-  uuid => 'FA59C0BBC43C3C15B9D72B94AFF52B91',
-}
+  before :each do
+    described_class.stubs(:suitable?).returns true
+    Puppet::Type.type(:lxca_event).stubs(:defaultprovider).returns described_class
+  end
 
+  let :event do
+    Puppet::Type.type(:lxca_event).new(
+      :name => 'lxca_event',
+      :host => 'https://10.243.10.75',
+      :port => '443',
+      :login_user => 'Admin',
+      :login_password => 'Lenovo123',
+      :verify_ssl => 'NONE',
+    )
+  end
+  
+  describe "for discover_all" do
+    it "should return an array as a result" do
+      expect(event.provider.discover_all).to be_instance_of(Array)
+    end
+  end
+
+end

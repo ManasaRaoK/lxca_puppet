@@ -1,0 +1,901 @@
+I, [2017-08-10T18:46:21.579126 #28014]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T18:46:21.579214 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T18:46:21.579530 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T18:46:21.604966 #28014]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T18:46:21.605036 #28014]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+E, [2017-08-10T18:47:21.614484 #28014] ERROR -- : [XClarityClient::XclarityBase connection] - Error trying to send a GET to /nodes
+I, [2017-08-10T18:47:21.614561 #28014]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-10T18:47:21.615958 #28014]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T18:47:21.616028 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T18:47:21.616179 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T18:47:21.616405 #28014]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T18:47:21.616435 #28014]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+E, [2017-08-10T18:48:21.627619 #28014] ERROR -- : [XClarityClient::XclarityBase connection] - Error trying to send a GET to /nodes?status=managed
+I, [2017-08-10T18:48:21.627689 #28014]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-10T18:48:21.629330 #28014]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T18:48:21.629421 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T18:48:21.629619 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T18:48:21.629871 #28014]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T18:48:21.629906 #28014]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+E, [2017-08-10T18:49:21.637927 #28014] ERROR -- : [XClarityClient::XclarityBase connection] - Error trying to send a GET to /nodes?status=unmanaged
+I, [2017-08-10T18:49:21.638014 #28014]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-10T18:49:21.638799 #28014]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T18:49:21.638847 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T18:49:21.638955 #28014]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T18:49:21.639394 #28014]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T18:49:21.639460 #28014]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-10T19:04:23.111299 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:23.113714 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:23.113781 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:23.114082 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cabinet
+I, [2017-08-10T19:04:23.121427 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:23.121492 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Cabinet resource
+I, [2017-08-10T19:04:25.353393 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /cabinet
+I, [2017-08-10T19:04:25.367146 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:25.367397 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:25.367837 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cabinet
+I, [2017-08-10T19:04:25.368515 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:25.368600 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Cabinet resource
+I, [2017-08-10T19:04:27.677298 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:27.680762 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:27.680835 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:27.680949 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/canisters
+I, [2017-08-10T19:04:27.681148 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:27.681173 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Canister resource
+I, [2017-08-10T19:04:29.943993 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /canisters
+I, [2017-08-10T19:04:29.956304 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:29.956506 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:29.957117 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/canisters
+I, [2017-08-10T19:04:29.958264 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:29.958458 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Canister resource
+I, [2017-08-10T19:04:32.289516 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:32.294164 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:32.294249 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:32.294361 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-10T19:04:32.294576 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:32.294601 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-10T19:04:38.190160 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-10T19:04:38.341357 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:38.341451 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:38.341773 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-10T19:04:38.341963 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:38.341997 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-10T19:04:40.612617 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:40.615732 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:40.618475 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:40.618583 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:40.618752 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cmms
+I, [2017-08-10T19:04:40.618955 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:40.619131 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Cmm resource
+I, [2017-08-10T19:04:44.666286 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /cmms
+I, [2017-08-10T19:04:44.670065 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:44.670174 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:44.670321 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cmms
+I, [2017-08-10T19:04:44.670713 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:44.670767 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Cmm resource
+I, [2017-08-10T19:04:46.936171 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /cmms
+I, [2017-08-10T19:04:46.964582 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:46.964697 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:46.964894 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cmms
+I, [2017-08-10T19:04:46.965202 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:46.965246 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Cmm resource
+I, [2017-08-10T19:04:49.239162 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:49.239471 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:49.239686 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/events
+I, [2017-08-10T19:04:49.239828 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:49.239884 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Event resource
+I, [2017-08-10T19:04:51.733561 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /events
+I, [2017-08-10T19:04:51.819659 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:51.822732 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:51.826519 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:51.826636 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:51.826820 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fans
+I, [2017-08-10T19:04:51.827145 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:51.827181 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Fan resource
+I, [2017-08-10T19:04:54.100623 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fans
+I, [2017-08-10T19:04:54.109638 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:54.109724 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:54.109852 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fans
+I, [2017-08-10T19:04:54.110028 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:54.110065 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Fan resource
+I, [2017-08-10T19:04:57.065555 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fans
+I, [2017-08-10T19:04:57.089480 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:57.089685 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:57.089957 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fans
+I, [2017-08-10T19:04:57.090609 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:57.091092 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Fan resource
+I, [2017-08-10T19:04:59.382770 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:59.397133 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:59.399335 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:04:59.399398 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:04:59.399507 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fanMuxes
+I, [2017-08-10T19:04:59.399684 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:04:59.399738 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::FanMux resource
+I, [2017-08-10T19:05:06.812270 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fanMuxes
+I, [2017-08-10T19:05:06.815346 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:06.815549 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:06.815720 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fanMuxes
+I, [2017-08-10T19:05:06.815770 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:06.815806 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::FanMux resource
+I, [2017-08-10T19:05:09.056970 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fanMuxes
+I, [2017-08-10T19:05:09.070360 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:09.070518 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:09.071363 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fanMuxes
+I, [2017-08-10T19:05:09.071885 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:09.071962 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::FanMux resource
+I, [2017-08-10T19:05:13.100597 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:13.100664 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:13.100797 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/ffdc/endpoint
+I, [2017-08-10T19:05:13.101005 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:13.101030 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Ffdc resource
+I, [2017-08-10T19:05:15.489775 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:15.491964 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:15.494710 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:15.510140 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:15.513109 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:15.516145 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:15.516205 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:15.516313 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-10T19:05:15.516522 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:15.516547 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-10T19:05:17.821137 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-10T19:05:17.841791 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:17.841931 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:17.843372 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-10T19:05:17.843636 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:17.843714 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-10T19:05:20.085964 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-10T19:05:20.087894 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:20.087957 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:20.088061 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-10T19:05:20.088345 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:25.108290 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:25.108481 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:25.108884 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-10T19:05:25.109273 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:25.109374 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-10T19:05:27.392398 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-10T19:05:27.405566 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:27.405794 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:27.406091 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-10T19:05:27.406604 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:29.682729 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:29.684103 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:29.684615 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-10T19:05:29.685497 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:34.511354 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.516762 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.519308 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.521665 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.570196 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.572928 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.575582 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.578585 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.595464 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:34.595588 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:34.595754 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:34.596076 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:34.596152 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-10T19:05:36.843817 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-10T19:05:36.856134 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:36.856269 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:36.856515 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:36.857137 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:36.857220 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-10T19:05:40.350365 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-10T19:05:40.365814 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:40.366090 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:40.366469 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:40.367361 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:40.367482 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-10T19:05:42.655134 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-10T19:05:42.658640 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:42.658780 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:42.658938 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:42.659121 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:42.659143 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-10T19:05:44.919345 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-10T19:05:44.921051 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:44.921115 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:44.921255 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:44.921431 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:44.921455 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Node resource
+I, [2017-08-10T19:05:47.168719 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:47.169176 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:47.169841 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:47.170643 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:49.523767 #30987]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerOn"}
+I, [2017-08-10T19:05:49.573454 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:49.573605 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:49.573762 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:49.573787 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:51.879711 #30987]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerOff"}
+I, [2017-08-10T19:05:51.896388 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:51.896600 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:51.897144 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:51.898263 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:54.108012 #30987]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerCycleSoftGrace"}
+I, [2017-08-10T19:05:54.120385 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:54.120565 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:54.120977 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:54.121691 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:54.121929 #30987]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-10T19:05:57.017632 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:57.017913 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:57.018422 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:57.019480 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:57.019694 #30987]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-10T19:05:59.250679 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:05:59.250828 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:05:59.251497 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-10T19:05:59.252459 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:05:59.255607 #30987]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-10T19:06:01.523262 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:01.548025 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:01.550163 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:01.550273 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:01.550429 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/powerSupplies
+I, [2017-08-10T19:06:01.550654 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:01.550783 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::PowerSupply resource
+I, [2017-08-10T19:06:03.850373 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /powerSupplies
+I, [2017-08-10T19:06:03.866407 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:03.866678 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:03.867228 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/powerSupplies
+I, [2017-08-10T19:06:03.867763 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:03.867826 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::PowerSupply resource
+I, [2017-08-10T19:06:06.079299 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /powerSupplies
+I, [2017-08-10T19:06:06.107782 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:06.108272 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:06.109132 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/powerSupplies
+I, [2017-08-10T19:06:06.109982 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:06.110100 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::PowerSupply resource
+I, [2017-08-10T19:06:08.413453 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:08.415454 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:08.415517 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:08.415627 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-10T19:06:08.416259 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:08.416330 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-10T19:06:10.616227 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-10T19:06:10.623808 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:10.623907 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:10.624022 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-10T19:06:10.624208 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:10.624233 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-10T19:06:12.859489 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-10T19:06:12.872528 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:12.872827 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:12.873548 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-10T19:06:12.874678 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:12.874955 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-10T19:06:16.564776 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-10T19:06:16.623525 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:16.626277 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:16.629013 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:16.629084 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:16.629470 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/switches
+I, [2017-08-10T19:06:16.629748 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:16.629785 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Switch resource
+I, [2017-08-10T19:06:18.875382 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /switches
+I, [2017-08-10T19:06:18.881329 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:18.881398 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:18.881508 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/switches
+I, [2017-08-10T19:06:18.881734 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:18.881771 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Switch resource
+I, [2017-08-10T19:06:21.123865 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /switches
+I, [2017-08-10T19:06:21.143797 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:21.143998 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:21.144842 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/switches
+I, [2017-08-10T19:06:21.145665 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:21.145768 #30987]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Switch resource
+I, [2017-08-10T19:06:23.414081 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:23.418068 #30987]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-10T19:06:23.418177 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-10T19:06:23.418386 #30987]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/userAccounts
+I, [2017-08-10T19:06:23.418643 #30987]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-10T19:06:23.418696 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::User resource
+I, [2017-08-10T19:06:25.648876 #30987]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /userAccounts
+I, [2017-08-11T05:50:36.439376 #3780]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:50:36.441944 #3780]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:50:36.442008 #3780]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:50:36.442300 #3780]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cabinet
+I, [2017-08-11T05:50:36.451548 #3780]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:50:36.451660 #3780]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Cabinet resource
+E, [2017-08-11T05:51:36.512782 #3780] ERROR -- : [XClarityClient::XclarityBase connection] - Error trying to send a GET to /cabinet
+I, [2017-08-11T05:51:36.512916 #3780]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /cabinet
+I, [2017-08-11T05:51:36.519279 #3780]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:51:36.519478 #3780]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:51:36.519869 #3780]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cabinet
+I, [2017-08-11T05:51:36.520362 #3780]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:51:36.520421 #3780]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Cabinet resource
+E, [2017-08-11T05:52:36.600735 #3780] ERROR -- : [XClarityClient::XclarityBase connection] - Error trying to send a GET to /cabinet/FA59C0BBC43C3C15B9D72B94AFF52B91
+I, [2017-08-11T05:57:43.263889 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:43.266550 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:43.266616 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:57:43.267303 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cabinet
+I, [2017-08-11T05:57:43.272655 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:57:43.272756 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Cabinet resource
+I, [2017-08-11T05:57:45.439141 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /cabinet
+I, [2017-08-11T05:57:45.441516 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:45.441584 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:57:45.441693 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cabinet
+I, [2017-08-11T05:57:45.441871 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:57:45.441895 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Cabinet resource
+I, [2017-08-11T05:57:47.599323 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:47.603038 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:47.603126 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:57:47.603326 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/canisters
+I, [2017-08-11T05:57:47.603594 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:57:47.603634 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Canister resource
+I, [2017-08-11T05:57:57.492353 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /canisters
+I, [2017-08-11T05:57:57.502633 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:57.502746 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:57:57.502920 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/canisters
+I, [2017-08-11T05:57:57.503495 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:57:57.503613 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Canister resource
+I, [2017-08-11T05:57:59.585775 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:59.589620 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:57:59.589722 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:57:59.589772 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T05:57:59.589971 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:57:59.589995 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T05:58:02.485083 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T05:58:02.641781 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:02.641863 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:02.641995 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T05:58:02.642269 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:02.642303 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T05:58:04.831776 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:04.834246 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:04.836707 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:04.836793 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:04.836932 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cmms
+I, [2017-08-11T05:58:04.837109 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:04.837133 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Cmm resource
+I, [2017-08-11T05:58:07.111020 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /cmms
+I, [2017-08-11T05:58:07.117625 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:07.117694 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:07.117827 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cmms
+I, [2017-08-11T05:58:07.117999 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:07.118022 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Cmm resource
+I, [2017-08-11T05:58:09.585464 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /cmms
+I, [2017-08-11T05:58:09.588912 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:09.588987 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:09.589123 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/cmms
+I, [2017-08-11T05:58:09.589400 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:09.589440 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Cmm resource
+I, [2017-08-11T05:58:12.277411 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:12.277608 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:12.277900 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/events
+I, [2017-08-11T05:58:12.278348 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:12.278406 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Event resource
+I, [2017-08-11T05:58:17.780862 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /events
+I, [2017-08-11T05:58:17.853533 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:17.856358 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:17.859599 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:17.859694 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:17.859742 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fans
+I, [2017-08-11T05:58:17.859972 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:17.859980 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Fan resource
+I, [2017-08-11T05:58:20.018229 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fans
+I, [2017-08-11T05:58:20.023378 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:20.023507 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:20.023672 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fans
+I, [2017-08-11T05:58:20.023915 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:20.023944 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Fan resource
+I, [2017-08-11T05:58:22.168656 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fans
+I, [2017-08-11T05:58:22.175724 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:22.175786 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:22.175953 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fans
+I, [2017-08-11T05:58:22.176187 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:22.176217 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Fan resource
+I, [2017-08-11T05:58:24.346597 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:24.357332 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:24.362217 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:24.362359 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:24.362593 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fanMuxes
+I, [2017-08-11T05:58:24.363122 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:24.363286 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::FanMux resource
+I, [2017-08-11T05:58:27.773249 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fanMuxes
+I, [2017-08-11T05:58:27.777257 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:27.777450 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:27.777662 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fanMuxes
+I, [2017-08-11T05:58:27.778112 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:27.778209 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::FanMux resource
+I, [2017-08-11T05:58:29.904071 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /fanMuxes
+I, [2017-08-11T05:58:29.906494 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:29.906558 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:29.906719 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/fanMuxes
+I, [2017-08-11T05:58:29.906909 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:29.906932 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::FanMux resource
+I, [2017-08-11T05:58:32.123925 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:32.123995 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:32.124108 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/ffdc/endpoint
+I, [2017-08-11T05:58:32.124422 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:32.124504 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Ffdc resource
+I, [2017-08-11T05:58:34.475100 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:34.480793 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:34.486774 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:34.492081 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:34.494738 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:34.499273 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:34.499337 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:34.499440 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T05:58:34.499621 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:34.499655 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T05:58:36.763356 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T05:58:36.833188 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:36.833295 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:36.833373 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T05:58:36.833590 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:36.833632 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T05:58:39.159729 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T05:58:39.162097 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:39.162208 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:39.162365 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T05:58:39.162580 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:41.379822 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:41.380053 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:41.380526 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T05:58:41.381304 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:41.381461 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T05:58:46.153004 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T05:58:46.173626 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:46.173792 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:46.174414 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T05:58:46.174979 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:50.992743 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:50.992980 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:50.993753 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T05:58:50.994388 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:53.131196 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.145592 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.148435 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.155213 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.181765 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.184451 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.187210 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.203692 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.206449 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:53.206511 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:53.206618 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:58:53.207203 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:53.207271 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T05:58:56.031084 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T05:58:56.183652 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:56.183770 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:56.183948 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:58:56.184189 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:56.184220 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T05:58:58.464570 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T05:58:58.578084 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:58:58.578160 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:58:58.578278 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:58:58.578465 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:58:58.578489 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T05:59:01.214350 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T05:59:01.369263 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:01.369790 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:01.370239 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:01.370614 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:01.370684 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T05:59:04.230985 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T05:59:04.435778 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:04.436267 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:04.436427 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:04.436740 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:04.436781 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T05:59:06.767173 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:06.767346 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:06.767635 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:06.767792 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:09.464344 #5030]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerOn"}
+I, [2017-08-11T05:59:09.521289 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:09.521676 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:09.522162 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:09.523001 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:12.198155 #5030]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerOff"}
+I, [2017-08-11T05:59:12.211769 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:12.212350 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:12.212883 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:12.213585 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:15.309377 #5030]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerCycleSoftGrace"}
+I, [2017-08-11T05:59:15.312122 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:15.312238 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:15.312450 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:15.312697 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:15.312775 #5030]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-11T05:59:17.953658 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:17.954174 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:17.954756 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:17.955616 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:17.955773 #5030]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-11T05:59:20.560353 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:20.560626 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:20.561306 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T05:59:20.562124 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:20.562418 #5030]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-11T05:59:23.260263 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:23.263797 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:23.268629 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:23.268774 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:23.268993 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/powerSupplies
+I, [2017-08-11T05:59:23.269402 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:23.269450 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::PowerSupply resource
+I, [2017-08-11T05:59:25.467011 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /powerSupplies
+I, [2017-08-11T05:59:25.502534 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:25.502794 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:25.502999 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/powerSupplies
+I, [2017-08-11T05:59:25.503277 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:25.503315 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::PowerSupply resource
+I, [2017-08-11T05:59:27.774930 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /powerSupplies
+I, [2017-08-11T05:59:27.804083 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:27.804301 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:27.804532 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/powerSupplies
+I, [2017-08-11T05:59:27.804748 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:27.804852 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::PowerSupply resource
+I, [2017-08-11T05:59:30.025641 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:30.028293 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:30.028388 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:30.028540 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T05:59:30.032210 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:30.032309 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T05:59:32.169083 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T05:59:32.206585 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:32.206762 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:32.207283 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T05:59:32.207970 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:32.208288 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T05:59:36.111106 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T05:59:36.125162 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:36.125435 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:36.125757 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T05:59:36.126706 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:36.126919 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T05:59:38.309919 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T05:59:38.324782 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:38.327478 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:38.329754 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:38.330083 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:38.330219 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/switches
+I, [2017-08-11T05:59:38.330452 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:38.330481 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Switch resource
+I, [2017-08-11T05:59:40.540296 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /switches
+I, [2017-08-11T05:59:40.557220 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:40.557402 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:40.557554 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/switches
+I, [2017-08-11T05:59:40.557775 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:40.557852 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Switch resource
+I, [2017-08-11T05:59:42.669102 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /switches
+I, [2017-08-11T05:59:42.675823 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:42.675935 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:42.676091 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/switches
+I, [2017-08-11T05:59:42.676333 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:42.676370 #5030]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Switch resource
+I, [2017-08-11T05:59:44.844210 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:44.847136 #5030]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T05:59:44.847248 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T05:59:44.847403 #5030]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/userAccounts
+I, [2017-08-11T05:59:44.847628 #5030]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T05:59:44.847688 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::User resource
+I, [2017-08-11T05:59:47.096337 #5030]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /userAccounts
+I, [2017-08-11T06:01:21.337416 #5725]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:01:21.337498 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:01:21.337805 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:01:21.340281 #5725]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:01:21.340420 #5725]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:01:24.275159 #5725]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T06:01:24.396773 #5725]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:01:24.396844 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:01:24.397000 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:01:24.397197 #5725]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:01:24.397220 #5725]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:01:26.556662 #5725]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T06:01:26.656419 #5725]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:01:26.656528 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:01:26.656737 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:01:26.656789 #5725]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:01:26.656838 #5725]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:01:28.911824 #5725]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T06:01:28.962924 #5725]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:01:28.962989 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:01:28.963099 #5725]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:01:28.963268 #5725]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:01:28.963291 #5725]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:03:35.351495 #6396]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:03:35.354048 #6396]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:03:35.354110 #6396]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:03:35.354370 #6396]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:03:35.371217 #6396]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:03:35.371287 #6396]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:03:38.259741 #6396]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T06:03:38.386748 #6396]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:03:38.386826 #6396]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:03:38.386942 #6396]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:03:38.387130 #6396]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:03:38.387155 #6396]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:05:16.926521 #6704]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:05:16.930670 #6704]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:05:16.930777 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:05:16.931099 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:05:16.934616 #6704]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:05:16.934723 #6704]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:05:21.818787 #6704]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T06:05:21.975306 #6704]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:05:21.975430 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:05:21.975595 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:05:21.975765 #6704]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:05:21.975821 #6704]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:05:26.418796 #6704]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T06:05:26.521387 #6704]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:05:26.521466 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:05:26.521655 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:05:26.522326 #6704]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:05:26.522386 #6704]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:05:28.763910 #6704]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /chassis
+I, [2017-08-11T06:05:28.853796 #6704]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:05:28.853966 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:05:28.854229 #6704]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/chassis
+I, [2017-08-11T06:05:28.854667 #6704]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:05:28.854725 #6704]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Chassi resource
+I, [2017-08-11T06:05:45.857332 #6792]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:05:45.857489 #6792]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:05:45.858120 #6792]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/ffdc/endpoint
+I, [2017-08-11T06:05:45.861766 #6792]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:05:45.861879 #6792]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Ffdc resource
+I, [2017-08-11T06:06:40.894069 #6956]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:06:40.894165 #6956]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:06:40.894496 #6956]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/ffdc/endpoint
+I, [2017-08-11T06:06:40.899552 #6956]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:06:40.899665 #6956]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Ffdc resource
+I, [2017-08-11T06:06:43.064104 #6956]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:06:43.064526 #6956]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:06:43.064840 #6956]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/ffdc/endpoint
+I, [2017-08-11T06:06:43.065329 #6956]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:06:43.065408 #6956]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Ffdc resource
+I, [2017-08-11T06:08:18.490776 #7239]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:08:18.494464 #7239]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:08:18.494482 #7239]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:08:18.494487 #7239]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/ffdc/endpoint
+I, [2017-08-11T06:08:18.500241 #7239]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:08:18.500429 #7239]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Ffdc resource
+I, [2017-08-11T06:08:47.068497 #7337]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:08:47.081092 #7337]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:08:47.081210 #7337]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:08:47.081596 #7337]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/userAccounts
+I, [2017-08-11T06:08:47.085019 #7337]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:08:47.085123 #7337]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::User resource
+I, [2017-08-11T06:08:49.237155 #7337]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /userAccounts
+I, [2017-08-11T06:10:03.969771 #7566]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:10:03.972450 #7566]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:10:03.972533 #7566]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:10:03.973208 #7566]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/userAccounts
+I, [2017-08-11T06:10:03.976670 #7566]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:10:03.978229 #7566]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::User resource
+I, [2017-08-11T06:10:06.086123 #7566]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /userAccounts
+I, [2017-08-11T06:10:06.088903 #7566]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:10:06.088970 #7566]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:10:06.089084 #7566]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/userAccounts
+I, [2017-08-11T06:10:06.089419 #7566]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:10:36.453177 #7667]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:10:36.456033 #7667]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:10:36.456136 #7667]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:10:36.456450 #7667]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:10:36.459678 #7667]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:10:36.459758 #7667]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:10:38.692015 #7667]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:10:38.720149 #7667]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:10:38.720257 #7667]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:10:38.720452 #7667]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:10:38.720880 #7667]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:10:38.720931 #7667]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:10:40.863455 #7667]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:10:40.876701 #7667]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:10:40.877041 #7667]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:10:40.877494 #7667]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:10:40.877924 #7667]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:10:40.878034 #7667]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:10:43.113210 #7667]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:12:45.127062 #8088]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:12:45.129931 #8088]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:12:45.130030 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:12:45.130402 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:12:45.135037 #8088]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:12:45.135106 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:12:47.247086 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:12:47.249433 #8088]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:12:47.249509 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:12:47.249673 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:12:47.249879 #8088]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:12:47.249903 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:12:49.385358 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:12:49.387388 #8088]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:12:49.387464 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:12:49.387579 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:12:49.387828 #8088]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:12:49.387857 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:12:51.584429 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:12:51.586942 #8088]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:12:51.587008 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:12:51.587125 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:12:51.587405 #8088]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:12:51.587440 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:12:53.762488 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:12:53.764742 #8088]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:12:53.764797 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:12:53.764985 #8088]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:12:53.765191 #8088]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:12:53.765221 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:12:55.934124 #8088]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:13:35.560869 #8241]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:13:35.563526 #8241]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:13:35.563631 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:13:35.564545 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:13:35.606389 #8241]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:13:35.606447 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:13:37.742903 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:13:37.759164 #8241]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:13:37.759408 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:13:37.759814 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:13:37.760491 #8241]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:13:37.760660 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:13:39.879384 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:13:39.882174 #8241]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:13:39.882270 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:13:39.882416 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:13:39.882610 #8241]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:13:39.882635 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:13:42.015275 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:13:42.017640 #8241]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:13:42.017760 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:13:42.017897 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:13:42.018092 #8241]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:13:42.018116 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:13:44.114532 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:13:44.120838 #8241]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:13:44.120985 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:13:44.121217 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:13:44.121548 #8241]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:13:44.121593 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:13:46.286724 #8241]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /scalableComplex
+I, [2017-08-11T06:13:46.289448 #8241]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:13:46.289561 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:13:46.289757 #8241]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/scalableComplex
+I, [2017-08-11T06:13:46.290015 #8241]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:13:46.290051 #8241]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::ScalableComplex resource
+I, [2017-08-11T06:14:04.093437 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:04.096908 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:04.099711 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:04.102734 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:04.163743 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:04.166141 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:04.166198 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:14:04.166501 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:14:04.171287 #8341]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:14:04.171407 #8341]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T06:14:06.701791 #8341]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T06:14:06.779166 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:06.779298 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:14:06.779628 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:14:06.779791 #8341]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:14:06.779829 #8341]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T06:14:08.846750 #8341]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T06:14:08.849079 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:08.849362 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:14:08.849533 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:14:08.849770 #8341]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:14:11.079481 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:11.079543 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:14:11.079656 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:14:11.079660 #8341]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:14:11.080123 #8341]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T06:14:13.195698 #8341]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T06:14:13.218681 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:13.219262 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:14:13.219600 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:14:13.220087 #8341]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:14:15.759724 #8341]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:14:15.759775 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:14:15.759906 #8341]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:14:15.760080 #8341]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:15:56.061011 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:15:56.064052 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:15:56.067310 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:15:56.070334 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:15:56.086197 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:15:56.089883 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:15:56.089948 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:15:56.090318 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:15:56.106258 #8681]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:15:56.106332 #8681]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T06:15:58.326458 #8681]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T06:15:58.408669 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:15:58.408796 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:15:58.408920 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:15:58.409101 #8681]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:15:58.409130 #8681]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T06:16:00.608307 #8681]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T06:16:00.610777 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:16:00.611319 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:16:00.611524 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:16:00.611753 #8681]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:16:02.754529 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:16:02.754636 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:16:02.754925 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:16:02.755207 #8681]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:16:02.755240 #8681]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Job resource
+I, [2017-08-11T06:16:04.889487 #8681]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /jobs
+I, [2017-08-11T06:16:04.906185 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:16:04.906521 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:16:04.907064 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:16:04.909453 #8681]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:16:07.592050 #8681]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:16:07.592220 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:16:07.592386 #8681]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/jobs
+I, [2017-08-11T06:16:07.592614 #8681]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:16.894773 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.897195 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.900686 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.903407 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.906033 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.908539 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.912133 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.914760 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.917120 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:16.917265 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:16.917602 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:16.919946 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:16.920541 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T06:18:19.795215 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T06:18:19.948657 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:19.948761 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:19.948897 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:19.949090 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:19.949115 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T06:18:22.125223 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T06:18:22.174274 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:22.174340 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:22.174459 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:22.174712 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:22.174743 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T06:18:25.163277 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T06:18:25.279740 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:25.279770 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:25.279898 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:25.280145 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:25.280169 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T06:18:27.978383 #9108]  INFO -- : [XclarityClient::ManagementMixin get_all_resources] - Response received from /nodes
+I, [2017-08-11T06:18:28.203614 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:28.203731 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:28.203775 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:28.203988 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:28.204012 #9108]  INFO -- : [XclarityClient::ManagementMixin get_object] - Sending request to XClarityClient::Node resource
+I, [2017-08-11T06:18:30.386005 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:30.386082 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:30.386194 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:30.386568 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:32.922200 #9108]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerOn"}
+I, [2017-08-11T06:18:32.968139 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:32.968332 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:32.968604 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:32.968797 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:35.542057 #9108]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerOff"}
+I, [2017-08-11T06:18:35.557251 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:35.557439 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:35.557833 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:35.558493 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:38.142297 #9108]  INFO -- : [XclarityClient::NodeManagement set_node_power_state] - Power state action has been sent with request {"powerState":"powerCycleSoftGrace"}
+I, [2017-08-11T06:18:38.144738 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:38.144775 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:38.144914 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:38.145162 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:38.145208 #9108]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-11T06:18:40.730775 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:40.731586 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:40.732145 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:40.732976 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:40.733139 #9108]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent
+I, [2017-08-11T06:18:43.370090 #9108]  INFO -- : [XClarityClient::Configuration initialize] - Configuration built successfuly
+I, [2017-08-11T06:18:43.370377 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Building the url
+I, [2017-08-11T06:18:43.370822 #9108]  INFO -- : [XClarityClient::XClarityBase connection_builder] - Creating connection to https://10.243.10.75/nodes
+I, [2017-08-11T06:18:43.371611 #9108]  INFO -- : [XClarityClient::XclarityBase connection_builder] - Connection created Successfuly
+I, [2017-08-11T06:18:43.371950 #9108]  INFO -- : [XclarityClient::ManagementMixin set_loc_led_state] - Loc led state action has been sent

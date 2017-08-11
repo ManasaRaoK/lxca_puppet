@@ -23,7 +23,7 @@ lxca_chassis{'list_all':
   host => 'https://10.243.10.75',
   port => '443',  
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'discover_all',
 }
@@ -32,25 +32,25 @@ lxca_chassis{'list_managed':
   host => 'https://10.243.10.75',
   port => '443',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
-  ensure => 'discover_managed',
+  ensure => 'discover_managed_chassis',
 }
 
 lxca_chassis{'list_unmanaged':
   host => 'https://10.243.10.75',
   port => '443',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
-  ensure => 'discover_unmanaged',
+  ensure => 'discover_unmanaged_chassis',
 }
 
 lxca_chassis{'filter_by_uuid':
   host => 'https://10.243.10.75',
   port => '443',
   login_user => 'Admin',
-  login_password => 'Admin123',
+  login_password => 'Lenovo123',
   verify_ssl => 'NONE',
   ensure => 'filter_by_uuid',
   uuid => 'F44E92339683385A8D97CD6348A6F45F',
