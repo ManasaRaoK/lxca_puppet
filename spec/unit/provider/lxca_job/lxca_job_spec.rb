@@ -142,6 +142,7 @@ describe Puppet::Type.type(:lxca_job).provider(:lxca_job) do
     end
   end
 
+=begin
   describe "for cancel_job" do
     it "should return status as 200" do
       expect(job_with_jobid.provider.cancel_job.status).to eq(200)
@@ -153,5 +154,6 @@ describe Puppet::Type.type(:lxca_job).provider(:lxca_job) do
       expect(job_with_jobid.provider.delete_job.status).to eq(200)
     end
   end
+=end
 
 end

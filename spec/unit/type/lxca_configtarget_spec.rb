@@ -19,14 +19,14 @@
 
 require 'spec_helper'
 
-describe Puppet::Type.type(:lxca_ffdc) do
+describe Puppet::Type.type(:lxca_configtarget) do
 
   before do
-    @ffdc_example = {
-      :host => 'https://10.243.10.75',
+    @configtarget_example = {
+      :host => 'https://10.240.29.220',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'TEST',
+      :login_password => 'CME44ibm',
       :verify_ssl => 'NONE',
     }
    
@@ -54,48 +54,60 @@ describe Puppet::Type.type(:lxca_ffdc) do
 
   describe "for ensure" do
     it "should not support other values" do
-      expect { described_class.new(:name => 'lxca_ffdc', :ensure => 'foo') }.to raise_error(Puppet::Error, /Invalid value "foo"/)
+      expect { described_class.new(:name => 'lxca_configtarget', :ensure => 'foo') }.to raise_error(Puppet::Error, /Invalid value "foo"/)
     end
 
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_ffdc')[:ensure].should == nil
+      described_class.new(:name => 'lxca_configtarget')[:ensure].should == nil
     end
     
   end
 
   describe "for host" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_ffdc')[:host].should == nil
+      described_class.new(:name => 'lxca_configtarget')[:host].should == nil
     end
   end
 
   describe "for port" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_ffdc')[:port].should == nil
+      described_class.new(:name => 'lxca_configtarget')[:port].should == nil
     end
   end
 
   describe "for login_user" do
     it "should not have a default value" do
-        described_class.new(:name => 'lxca_ffdc')[:login_user].should == nil
+        described_class.new(:name => 'lxca_configtarget')[:login_user].should == nil
     end
   end
 
   describe "for login_password" do
     it "should not have a default value" do
-        described_class.new(:name => 'lxca_ffdc')[:login_password].should == nil
+        described_class.new(:name => 'lxca_configtarget')[:login_password].should == nil
     end
   end
 
   describe "for verify_ssl" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_ffdc')[:verify_ssl].should == nil
+      described_class.new(:name => 'lxca_configtarget')[:verify_ssl].should == nil
     end
   end
 
   describe "for auth_type" do
     it "should have a default value of basic_auth" do
-      described_class.new(:name => 'lxca_ffdc', :ensure => 'filter_by_uuid')[:auth_type].should == 'basic_auth'
+      described_class.new(:name => 'lxca_configtarget', :ensure => 'filter_by_id')[:auth_type].should == 'basic_auth'
+    end
+  end
+
+  describe "for csrf_token" do
+    it "should not have a default value of csrf_token" do
+      described_class.new(:name => 'lxca_configtarget')[:csrf_token].should == nil
+    end
+  end
+
+  describe "for id" do
+    it "should not have a default value" do
+      described_class.new(:name => 'lxca_configtarget', :ensure => 'filter_by_id')[:id].should == nil
     end
   end
 
