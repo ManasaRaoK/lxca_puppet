@@ -17,69 +17,69 @@
 # limitations under the License.
 ################################################################################
 
-# This manifest contains some sample invocations of lxca_configprofile resource type
+# This manifest contains some sample invocations of lxca_config_profile resource type
 
-lxca_configprofile{'list_all':
-  host => 'https://10.240.29.220',
+lxca_config_profile{'list_all':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
   ensure => 'discover_all',
 }
 
-lxca_configprofile{'filter_by_profileid':
-  host => 'https://10.240.29.220',
+lxca_config_profile{'filter_by_profileid':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
   ensure => 'filter_by_id',
   id => '68',
 }
 
-lxca_configprofile{'activate_configprofile':
-  host => 'https://10.240.29.220',
+lxca_config_profile{'activate_config_profile':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
-  ensure => 'activate_configprofile',
+  ensure => 'activate_config_profile',
   id => '68',
   endpoint_uuid => '46920C143355486F97C19A34ABC7D746_bay10',
   restart => 'immediate',
 }
 
-lxca_configprofile{'rename_configprofile':
-  host => 'https://10.240.29.220',
+lxca_config_profile{'rename_config_profile':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
-  ensure => 'rename_configprofile',
+  ensure => 'rename_config_profile',
   id => '68',
   profile_name => 'name_from_puppet_type',
 }
 
-lxca_configprofile{'unassign_configprofile':
-  host => 'https://10.240.29.220',
+lxca_config_profile{'unassign_config_profile':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
-  ensure => 'unassign_configprofile',
+  ensure => 'unassign_config_profile',
   id => '68',
   power_down => 'False',
   reset_imm => 'False',
   force => 'False',
 }
 
-lxca_configprofile{'delete_configprofile':
-  host => 'https://10.240.29.220',
+lxca_config_profile{'delete_config_profile':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
-  ensure => 'delete_configprofile',
+  ensure => 'delete_config_profile',
   id => '68',
 }

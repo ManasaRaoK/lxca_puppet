@@ -17,7 +17,7 @@
 # limitations under the License.
 ################################################################################
 
-Puppet::Type.newtype(:lxca_configtarget) do
+Puppet::Type.newtype(:lxca_config_target) do
 
   ensurable do
     

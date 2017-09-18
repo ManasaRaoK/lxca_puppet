@@ -19,7 +19,7 @@
 
 require 'xclarity_client'
 
-Puppet::Type.type(:lxca_configprofile).provide(:lxca_configprofile) do
+Puppet::Type.type(:lxca_config_profile).provide(:lxca_config_profile) do
   desc 'Configuration profile provider for LXCA resource'
   
   def create_client
@@ -48,7 +48,7 @@ Puppet::Type.type(:lxca_configprofile).provide(:lxca_configprofile) do
 
   def discover_all
     create_client if @client.nil?
-    @client.discover_configprofile.map do |profile|
+    @client.discover_config_profile.map do |profile|
       profile.instance_variables.each do |att|
         puts "#{att} - #{profile.instance_variable_get att}"
       end
@@ -60,64 +60,64 @@ Puppet::Type.type(:lxca_configprofile).provide(:lxca_configprofile) do
     if @resource[:id].nil?
       raise Puppet::Error, _("Attribute id is mandatory for the ensurable filter_by_id")
     end
-    @client.fetch_configprofile(["#{@resource[:id]}"]).map do |profile|
+    @client.fetch_config_profile(["#{@resource[:id]}"]).map do |profile|
       profile.instance_variables.each do |att|
         puts "#{att} - #{profile.instance_variable_get att}"
       end
     end
   end
 
-  def rename_configprofile
+  def rename_config_profile
     create_client if @client.nil?
     if @resource[:id].nil?
-      raise Puppet::Error, _("Attribute id is mandatory for the ensurable rename_configprofile")
+      raise Puppet::Error, _("Attribute id is mandatory for the ensurable rename_config_profile")
     end
     if @resource[:profile_name].nil?
-      raise Puppet::Error, _("Attribute profile_name is mandatory for the ensurable rename_configprofile")
+      raise Puppet::Error, _("Attribute profile_name is mandatory for the ensurable rename_config_profile")
     end
-
-    @client.rename_configprofile("#{@resource[:id]}" ,"#{@resource[:profile_name]}")
+   
+    @client.rename_config_profile("#{@resource[:id]}" ,"#{@resource[:profile_name]}")
   end
 
-  def activate_configprofile
+  def activate_config_profile
     create_client if @client.nil?
     if @resource[:id].nil?
-      raise Puppet::Error, _("Attribute id is mandatory for the ensurable activate_configprofile")
+      raise Puppet::Error, _("Attribute id is mandatory for the ensurable activate_config_profile")
     end
     if @resource[:endpoint_uuid].nil?
-      raise Puppet::Error, _("Attribute endpoint_uuid is mandatory for the ensurable activate_configprofile")
+      raise Puppet::Error, _("Attribute endpoint_uuid is mandatory for the ensurable activate_config_profile")
     end
     if @resource[:restart].nil?
-      raise Puppet::Error, _("Attribute restart is mandatory for the ensurable activate_configprofile")
+      raise Puppet::Error, _("Attribute restart is mandatory for the ensurable activate_config_profile")
     end
 
-    @client.activate_configprofile("#{@resource[:id]}", "#{@resource[:endpoint_uuid]}", "#{@resource[:restart]}")
+    @client.activate_config_profile("#{@resource[:id]}", "#{@resource[:endpoint_uuid]}", "#{@resource[:restart]}")
   end
 
-  def unassign_configprofile
+  def unassign_config_profile
     create_client if @client.nil?
     if @resource[:id].nil?
-      raise Puppet::Error, _("Attribute id is mandatory for the ensurable unassign_configprofile")
+      raise Puppet::Error, _("Attribute id is mandatory for the ensurable unassign_config_profile")
     end
     if @resource[:power_down].nil?
-      raise Puppet::Error, _("Attribute power_down is mandatory for the ensurable unassign_configprofile")
+      raise Puppet::Error, _("Attribute power_down is mandatory for the ensurable unassign_config_profile")
     end
     if @resource[:reset_imm].nil?
-      raise Puppet::Error, _("Attribute reset_imm is mandatory for the ensurable unassign_configprofile")
+      raise Puppet::Error, _("Attribute reset_imm is mandatory for the ensurable unassign_config_profile")
     end
     if @resource[:force].nil?
-      raise Puppet::Error, _("Attribute force is mandatory for the ensurable unassign_configprofile")
+      raise Puppet::Error, _("Attribute force is mandatory for the ensurable unassign_config_profile")
     end
 
-    @client.unassign_configprofile("#{@resource[:id]}", "#{@resource[:power_down]}", "#{@resource[:reset_imm]}", "#{@resource[:force]}")
+    @client.unassign_config_profile("#{@resource[:id]}", "#{@resource[:power_down]}", "#{@resource[:reset_imm]}", "#{@resource[:force]}")
   end
 
-  def delete_configprofile
+  def delete_config_profile
     create_client if @client.nil?
     if @resource[:id].nil?
-      raise Puppet::Error, _("Attribute id is mandatory when ensure is set to delete_configprofile")
+      raise Puppet::Error, _("Attribute id is mandatory when ensure is set to delete_config_profile")
     end
-    @client.delete_configprofile(@resource[:id])
+    @client.delete_config_profile(@resource[:id])
   end
 
 end

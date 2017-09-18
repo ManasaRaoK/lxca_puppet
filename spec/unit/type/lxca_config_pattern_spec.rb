@@ -19,14 +19,14 @@
 
 require 'spec_helper'
 
-describe Puppet::Type.type(:lxca_configprofile) do
+describe Puppet::Type.type(:lxca_config_pattern) do
 
   before do
-    @configprofile_example = {
-      :host => 'https://10.240.29.220',
+    @config_pattern_example = {
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'TEST',
-      :login_password => 'CME44ibm',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
     }
    
@@ -54,120 +54,96 @@ describe Puppet::Type.type(:lxca_configprofile) do
 
   describe "for ensure" do
     it "should not support other values" do
-      expect { described_class.new(:name => 'lxca_configprofile', :ensure => 'foo') }.to raise_error(Puppet::Error, /Invalid value "foo"/)
+      expect { described_class.new(:name => 'lxca_config_pattern', :ensure => 'foo') }.to raise_error(Puppet::Error, /Invalid value "foo"/)
     end
 
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile')[:ensure].should == nil
+      described_class.new(:name => 'lxca_config_pattern')[:ensure].should == nil
     end
     
   end
 
   describe "for host" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile')[:host].should == nil
+      described_class.new(:name => 'lxca_config_pattern')[:host].should == nil
     end
   end
 
   describe "for port" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile')[:port].should == nil
+      described_class.new(:name => 'lxca_config_pattern')[:port].should == nil
     end
   end
 
   describe "for login_user" do
     it "should not have a default value" do
-        described_class.new(:name => 'lxca_configprofile')[:login_user].should == nil
+        described_class.new(:name => 'lxca_config_pattern')[:login_user].should == nil
     end
   end
 
   describe "for login_password" do
     it "should not have a default value" do
-        described_class.new(:name => 'lxca_configprofile')[:login_password].should == nil
+        described_class.new(:name => 'lxca_config_pattern')[:login_password].should == nil
     end
   end
 
   describe "for verify_ssl" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile')[:verify_ssl].should == nil
+      described_class.new(:name => 'lxca_config_pattern')[:verify_ssl].should == nil
     end
   end
 
   describe "for auth_type" do
     it "should have a default value of 'basic_auth" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'discover_all')[:auth_type].should == 'basic_auth'
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'discover_all')[:auth_type].should == 'basic_auth'
     end
   end
 
   describe "for csrf_token" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile')[:csrf_token].should == nil
+      described_class.new(:name => 'lxca_config_pattern')[:csrf_token].should == nil
     end
   end
 
   describe "for id" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'filter_by_id')[:id].should == nil
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'filter_by_id')[:id].should == nil
     end
   end
 
   describe "for id" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'rename_configprofile')[:id].should == nil
-    end
-  end
-
-  describe "for profile_name" do
-    it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'rename_configprofile')[:profile_name].should == nil
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'export_config_pattern')[:id].should == nil
     end
   end
 
   describe "for id" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'activate_configprofile')[:id].should == nil
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'deploy_config_pattern')[:id].should == nil
     end
   end
 
-  describe "for endpoint_uuid" do
+  describe "for endpoints" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'activate_configprofile')[:endpoint_uuid].should == nil
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'deploy_config_pattern')[:endpoints].should == nil
     end
   end
 
   describe "for restart" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'activate_configprofile')[:restart].should == nil
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'deploy_config_pattern')[:restart].should == nil
     end
   end
 
-  describe "for id" do
+  describe "for etype" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'unassign_configprofile')[:id].should == nil
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'deploy_config_pattern')[:etype].should == nil
     end
   end
 
-  describe "for power_down" do
+  describe "for import_json" do
     it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'unassign_configprofile')[:power_down].should == nil
-    end
-  end
-
-  describe "for reset_imm" do
-    it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'unassign_configprofile')[:reset_imm].should == nil
-    end
-  end
-
-  describe "for force" do
-    it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'unassign_configprofile')[:force].should == nil
-    end
-  end
-
-  describe "for id" do
-    it "should not have a default value" do
-      described_class.new(:name => 'lxca_configprofile', :ensure => 'delete_configprofile')[:id].should == nil
+      described_class.new(:name => 'lxca_config_pattern', :ensure => 'import_config_pattern')[:import_json].should == nil
     end
   end
 

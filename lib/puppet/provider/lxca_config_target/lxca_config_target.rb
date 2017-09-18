@@ -19,7 +19,7 @@
 
 require 'xclarity_client'
 
-Puppet::Type.type(:lxca_configtarget).provide(:lxca_configtarget) do
+Puppet::Type.type(:lxca_config_target).provide(:lxca_config_target) do
   desc 'Configuration target provider for LXCA resource'
   
   def create_client
@@ -52,7 +52,7 @@ Puppet::Type.type(:lxca_configtarget).provide(:lxca_configtarget) do
       raise Puppet::Error, _("Attribute id is mandatory for the ensurable filter_by_id")
     end
 
-    @client.fetch_configtarget(["#{@resource[:id]}"]).map do |target|
+    @client.fetch_config_target(["#{@resource[:id]}"]).map do |target|
       target.instance_variables.each do |att|
         puts "#{att} - #{target.instance_variable_get att}"
       end

@@ -17,57 +17,57 @@
 # limitations under the License.
 ################################################################################
 
-# This manifest contains some sample invocations of lxca_configpattern resource type
+# This manifest contains some sample invocations of lxca_config_pattern resource type
 
-lxca_configpattern{'list_all':
-  host => 'https://10.240.29.220',
+lxca_config_pattern{'list_all':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
   ensure => 'discover_all',
 }
 
-lxca_configpattern{'filter_by_patternid':
-  host => 'https://10.240.29.220',
+lxca_config_pattern{'filter_by_patternid':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
   ensure => 'filter_by_id',
   id => '59',
 }
 
-lxca_configpattern{'export_configpattern':
-  host => 'https://10.240.29.220',
+lxca_config_pattern{'export_config_pattern':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
-  ensure => 'export_configpattern',
+  ensure => 'export_config_pattern',
   id => '59',
 }
 
-lxca_configpattern{'deploy_configpattern':
-  host => 'https://10.240.29.220',
+lxca_config_pattern{'deploy_config_pattern':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
-  ensure => 'deploy_configpattern',
+  ensure => 'deploy_config_pattern',
   id => '59',
   endpoints => 'B918EDCA1B5F11E2803EBECB82710ADE',
   restart => 'pending',
   etype => 'node',
 }
 
-lxca_configpattern{'import_configpattern':
-  host => 'https://10.240.29.220',
+lxca_config_pattern{'import_config_pattern':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
-  ensure => 'import_configpattern',
+  ensure => 'import_config_pattern',
   import_json => '{"template_type" : "SystemInfo","template" : {"contact" : "contact","description" : "Pattern created by ruby test API ","location" : "location","name" : "Learned-System_Info-99","systemName" : {"autogen" : "Disable","hyphenChecked" : "FALSE"},"type" : "SystemInfo","uri" : "\/config\/template\/62","userDefined" : "TRUE"}}',
 }
 

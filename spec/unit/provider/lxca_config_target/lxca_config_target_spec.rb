@@ -19,31 +19,31 @@
 
 require 'spec_helper'
 
-describe Puppet::Type.type(:lxca_configtarget).provider(:lxca_configtarget) do
+describe Puppet::Type.type(:lxca_config_target).provider(:lxca_config_target) do
 
   before :each do
     described_class.stubs(:suitable?).returns true
-    Puppet::Type.type(:lxca_configtarget).stubs(:defaultprovider).returns described_class
+    Puppet::Type.type(:lxca_config_target).stubs(:defaultprovider).returns described_class
   end
 
-  let :configtarget do
-    Puppet::Type.type(:lxca_configtarget).new(
-      :name => 'lxca_configtarget',
-      :host => 'https://10.240.29.220',
+  let :config_target do
+    Puppet::Type.type(:lxca_config_target).new(
+      :name => 'lxca_config_target',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'TEST',
-      :login_password => 'CME44ibm',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
     )
   end
 
-  let :configtarget_with_id do
-    Puppet::Type.type(:lxca_configtarget).new(
-      :name => 'lxca_configtarget',
-      :host => 'https://10.240.29.220',
+  let :config_target_with_id do
+    Puppet::Type.type(:lxca_config_target).new(
+      :name => 'lxca_config_target',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'TEST',
-      :login_password => 'CME44ibm',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :id => '65'
     )
@@ -51,19 +51,19 @@ describe Puppet::Type.type(:lxca_configtarget).provider(:lxca_configtarget) do
 
   describe "provider instance type" do
     it "with id should be an instance of provider ruby" do
-      expect(configtarget_with_id.provider).to be_an_instance_of Puppet::Type.type(:lxca_configtarget).provider(:lxca_configtarget)
+      expect(config_target_with_id.provider).to be_an_instance_of Puppet::Type.type(:lxca_config_target).provider(:lxca_config_target)
     end
   end
 
   describe "for ensurable filter_by_id" do
     it "should have id as a parameter" do
-      expect {configtarget.provider.filter_by_id}.to raise_error(Puppet::Error, /Attribute id is mandatory for the ensurable filter_by_id/)
+      expect {config_target.provider.filter_by_id}.to raise_error(Puppet::Error, /Attribute id is mandatory for the ensurable filter_by_id/)
     end
   end
 
   describe "for filter_by_id" do
     it "should return an array as a result" do
-      expect(configtarget_with_id.provider.filter_by_id).to be_instance_of(Array)
+      expect(config_target_with_id.provider.filter_by_id).to be_instance_of(Array)
     end
   end
 

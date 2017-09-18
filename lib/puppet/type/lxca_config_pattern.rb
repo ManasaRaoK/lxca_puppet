@@ -17,7 +17,7 @@
 # limitations under the License.
 ################################################################################
 
-Puppet::Type.newtype(:lxca_configpattern) do
+Puppet::Type.newtype(:lxca_config_pattern) do
 
   ensurable do
     
@@ -31,19 +31,19 @@ Puppet::Type.newtype(:lxca_configpattern) do
       provider.filter_by_id
     end
    
-    newvalue(:export_configpattern) do
+    newvalue(:export_config_pattern) do
       Puppet.notice "Exporting the configuration pattern"
-      provider.export_configpattern
+      provider.export_config_pattern
     end
 
-    newvalue(:import_configpattern) do
+    newvalue(:import_config_pattern) do
       Puppet.notice "Importing a configuration pattern"
-      provider.import_configpattern
+      provider.import_config_pattern
     end 
  
-    newvalue(:deploy_configpattern) do
+    newvalue(:deploy_config_pattern) do
       Puppet.notice "Deploy a configuration pattern"
-      provider.deploy_configpattern
+      provider.deploy_config_pattern
     end
 
   end

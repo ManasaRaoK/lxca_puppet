@@ -17,7 +17,7 @@
 # limitations under the License.
 ################################################################################
 
-Puppet::Type.newtype(:lxca_configprofile) do
+Puppet::Type.newtype(:lxca_config_profile) do
 
   ensurable do
     
@@ -31,24 +31,24 @@ Puppet::Type.newtype(:lxca_configprofile) do
       provider.filter_by_id
     end
    
-    newvalue(:rename_configprofile) do
+    newvalue(:rename_config_profile) do
       Puppet.notice "Renaming the configuration profile"
-      provider.rename_configprofile
+      provider.rename_config_profile
     end
 
-    newvalue(:activate_configprofile) do
+    newvalue(:activate_config_profile) do
       Puppet.notice "Activate a configuration profile"
-      provider.activate_configprofile
+      provider.activate_config_profile
     end 
  
-    newvalue(:unassign_configprofile) do
+    newvalue(:unassign_config_profile) do
       Puppet.notice "Unassign a configuration profile"
-      provider.unassign_configprofile
+      provider.unassign_config_profile
     end
 
-    newvalue(:delete_configprofile) do
+    newvalue(:delete_config_profile) do
       Puppet.notice "Deleting the configuration profile"
-      provider.delete_configprofile
+      provider.delete_config_profile
     end
 
   end

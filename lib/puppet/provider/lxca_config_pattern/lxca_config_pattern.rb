@@ -19,7 +19,7 @@
 
 require 'xclarity_client'
 
-Puppet::Type.type(:lxca_configpattern).provide(:lxca_configpattern) do
+Puppet::Type.type(:lxca_config_pattern).provide(:lxca_config_pattern) do
   desc 'Configuration pattern provider for LXCA resource'
   
   def create_client
@@ -48,7 +48,7 @@ Puppet::Type.type(:lxca_configpattern).provide(:lxca_configpattern) do
 
   def discover_all
     create_client if @client.nil?
-    @client.discover_configpattern.map do |pattern|
+    @client.discover_config_pattern.map do |pattern|
       pattern.instance_variables.each do |att|
         puts "#{att} - #{pattern.instance_variable_get att}"
       end
@@ -60,51 +60,51 @@ Puppet::Type.type(:lxca_configpattern).provide(:lxca_configpattern) do
     if @resource[:id].nil?
       raise Puppet::Error, _("Attribute id is mandatory for the ensurable filter_by_id")
     end
-    @client.fetch_configpattern(["#{@resource[:id]}"]).map do |pattern|
+    @client.fetch_config_pattern(["#{@resource[:id]}"]).map do |pattern|
       pattern.instance_variables.each do |att|
         puts "#{att} - #{pattern.instance_variable_get att}"
       end
     end
   end
 
-  def export_configpattern
+  def export_config_pattern
     create_client if @client.nil?
     if @resource[:id].nil?
-      raise Puppet::Error, _("Attribute id is mandatory for the ensurable export_configpattern")
+      raise Puppet::Error, _("Attribute id is mandatory for the ensurable export_config_pattern")
     end
 
-    @client.export_configpattern("#{@resource[:id]}").map do |pattern|
+    @client.export_config_pattern("#{@resource[:id]}").map do |pattern|
       pattern.instance_variables.each do |att|
         puts "#{att} - #{pattern.instance_variable_get att}"
       end
     end
   end
 
-  def deploy_configpattern
+  def deploy_config_pattern
     create_client if @client.nil?
     if @resource[:id].nil?
-      raise Puppet::Error, _("Attribute id is mandatory for the ensurable deploy_configpattern")
+      raise Puppet::Error, _("Attribute id is mandatory for the ensurable deploy_config_pattern")
     end
     if @resource[:endpoints].nil?
-      raise Puppet::Error, _("Attribute endpoints is mandatory for the ensurable deploy_configpattern")
+      raise Puppet::Error, _("Attribute endpoints is mandatory for the ensurable deploy_config_pattern")
     end
     if @resource[:restart].nil?
-      raise Puppet::Error, _("Attribute restart is mandatory for the ensurable deploy_configpattern")
+      raise Puppet::Error, _("Attribute restart is mandatory for the ensurable deploy_config_pattern")
     end
     if @resource[:etype].nil?
-      raise Puppet::Error, _("Attribute etype is mandatory for the ensurable deploy_configpattern")
+      raise Puppet::Error, _("Attribute etype is mandatory for the ensurable deploy_config_pattern")
     end
 
-    @client.deploy_configpattern("#{@resource[:id]}", "#{@resource[:endpoints]}", "#{@resource[:restart]}", "#{@resource[:etype]}")
+    @client.deploy_config_pattern("#{@resource[:id]}", "#{@resource[:endpoints]}", "#{@resource[:restart]}", "#{@resource[:etype]}")
   end
 
-  def import_configpattern
+  def import_config_pattern
     create_client if @client.nil?
     if @resource[:import_json].nil?
-      raise Puppet::Error, _("Attribute import_json is mandatory for the ensurable import_configpattern")
+      raise Puppet::Error, _("Attribute import_json is mandatory for the ensurable import_config_pattern")
     end
 
-    @client.import_configpattern("#{@resource[:import_json]}")
+    @client.import_config_pattern("#{@resource[:import_json]}")
   end
 
 end

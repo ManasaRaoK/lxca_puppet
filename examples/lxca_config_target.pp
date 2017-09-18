@@ -17,13 +17,13 @@
 # limitations under the License.
 ################################################################################
 
-# This manifest contains some sample invocations of lxca_configtarget resource type
+# This manifest contains some sample invocations of lxca_config_target resource type
 
-lxca_configtarget{'filter_by_id':
-  host => 'https://10.240.29.220',
+lxca_config_target{'filter_by_id':
+  host => 'https://10.240.29.217',
   port => '443',
-  login_user => 'TEST',
-  login_password => 'CME44ibm',
+  login_user => 'USERID',
+  login_password => 'Passw0rd',
   verify_ssl => 'NONE',
   ensure => 'filter_by_id',
   id => '65',
