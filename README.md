@@ -20,22 +20,6 @@ lxca module is used to interact with Lenovo XClarity™ Administrator resources 
 
 Lenovo XClarity™ Administrator is a centralized resource management solution that is aimed at reducing complexity, speeding response, and enhancing the availability of Lenovo® server systems and solutions. Using the lxca module, you can interact with the LXCA resources such as nodes, chassis, cmms etc...
 
-In this POC, the supported functionality are:
-* Listing of all nodes
-* Listing of managed nodes
-* Listing of unmanaged nodes
-* Listing and filtering of nodes using a chassis
-* Listing and filtering of nodes using a uuid
-* Power on node
-* Power off node
-* Power restart node
-* Blink LOC LED
-* Turn on LOC LED
-* Turn off LOC LED
-* Listing of all chassis
-* Listing of managed chassis
-* Listing of unmanaged chassis
-* Listing and filtering of chassis using a uuid
 
 ## Setup
 Once the lxca module becomes a part of the Puppet Forge, it can be installed using the command:
@@ -45,9 +29,26 @@ Till then, download the entire contents of this repository to the directory /etc
 
 ### What lxca affects
 
-In the current POC, LXCA can interact with the following LXCA resources:
+In the current code, LXCA can interact with the following LXCA resources:
 * Node
 * Chassis
+* Cabinet
+* Canister
+* Cmm
+* Event
+* Fan
+* Fan Muxes
+* Ffdc
+* Job
+* Power Supply
+* Scalable Complex
+* Switch
+* User
+
+It also provides configuration related functionalities as below:
+* Configuration Patterns
+* Configuration Profiles
+* Configuration Targets
 
 ### Setup Requirements **OPTIONAL**
 
