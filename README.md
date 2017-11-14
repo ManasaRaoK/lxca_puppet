@@ -1,4 +1,4 @@
-# lxca
+# LXCA Puppet Module
 
 #### Table of Contents
 
@@ -50,13 +50,13 @@ It also provides configuration related functionalities as below:
 * Configuration Profiles
 * Configuration Targets
 
-### Setup Requirements **OPTIONAL**
+### Setup Requirements 
 
 The lxca module needs xclarity_client gem to be installed.
 
 ## Usage
 ### Types and Providers
-In this POC, 3 types and the respective providers have been implemented - lxca_node, lxca_chassis, lxca_resource
+In this code, 18 types and the respective providers have been implemented - lxca_node, lxca_chassis, lxca_resource, lxca_cabinet, lxca_canister, lxca_cmm, lxca_config_pattern, lxca_config_profile, lxca_config_target, lxca_event, lxca_fan_muxes, lxca_fan, lxca_ffdc, lxca_job, lxca_power_supplies, lxca_scalable_complex, lxca_switches and lxca_users
 
 
 lxca_nodes accepts the following ensurable methods:
@@ -67,7 +67,7 @@ lxca_chassis accepts the following ensurable methods:
 discover_all, discover_managed, discover_unmanaged, filter_by_uuid
 
 
-lxca_resource is a placeholder for ffdc events and other operations that does not logically fall under any resource and is more of a property of the whole LXCA. This will be implemented as requirements are encountered.
+lxca_resource is a placeholder for operations that does not logically fall under any resource and is more of a property of the whole LXCA. This will be implemented as requirements are encountered.
 
 
 A sample manifest is provided below that demonstrates the usage of lxca_node and lxca_chassis:
