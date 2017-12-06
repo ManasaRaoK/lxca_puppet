@@ -118,7 +118,7 @@ with things. (We are working on automating this section!)
 ## Limitations
 
 a. Validations to be improved
-b. More functionality to be added
+b. rspecs should be made generic. Usage of specific IPs should be worked around to use capabilities of WebMock.
 c. LED functionality probably not working
 
 ## Development
