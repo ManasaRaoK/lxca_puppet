@@ -29,10 +29,10 @@ describe Puppet::Type.type(:lxca_users).provider(:lxca_users) do
   let :users do
     Puppet::Type.type(:lxca_users).new(
       :name => 'lxca_users',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
     )
   end
@@ -40,10 +40,10 @@ describe Puppet::Type.type(:lxca_users).provider(:lxca_users) do
   let :users_with_id do
     Puppet::Type.type(:lxca_users).new(
       :name => 'lxca_users',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :id => '6610c3d3-ea89-4f12-8957-858dfc44f109'
     )

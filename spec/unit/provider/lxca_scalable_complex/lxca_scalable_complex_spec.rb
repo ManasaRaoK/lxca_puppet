@@ -29,10 +29,10 @@ describe Puppet::Type.type(:lxca_scalable_complex).provider(:lxca_scalable_compl
   let :scalable_complex do
     Puppet::Type.type(:lxca_scalable_complex).new(
       :name => 'lxca_scalable_complex',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
     )
   end
@@ -40,10 +40,10 @@ describe Puppet::Type.type(:lxca_scalable_complex).provider(:lxca_scalable_compl
   let :scalable_complex_with_uuid do
     Puppet::Type.type(:lxca_scalable_complex).new(
       :name => 'lxca_scalable_complex',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :uuid => 'FA59C0BBC43C3C15B9D72B94AFF52B91'
     )

@@ -29,10 +29,10 @@ describe Puppet::Type.type(:lxca_power_supplies).provider(:lxca_power_supplies) 
   let :power_supplies do
     Puppet::Type.type(:lxca_power_supplies).new(
       :name => 'lxca_power_supplies',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
     )
   end
@@ -40,10 +40,10 @@ describe Puppet::Type.type(:lxca_power_supplies).provider(:lxca_power_supplies) 
   let :power_supplies_with_chassis do
     Puppet::Type.type(:lxca_power_supplies).new(
       :name => 'lxca_power_supplies',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :chassis => 'F44E92339683385A8D97CD6348A6F45F'
     )
@@ -52,10 +52,10 @@ describe Puppet::Type.type(:lxca_power_supplies).provider(:lxca_power_supplies) 
   let :power_supplies_with_uuid do
     Puppet::Type.type(:lxca_power_supplies).new(
       :name => 'lxca_power_supplies',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :uuid => 'FA59C0BBC43C3C15B9D72B94AFF52B91'
     )

@@ -29,10 +29,10 @@ describe Puppet::Type.type(:lxca_event).provider(:lxca_event) do
   let :event do
     Puppet::Type.type(:lxca_event).new(
       :name => 'lxca_event',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
     )
   end

@@ -29,10 +29,10 @@ describe Puppet::Type.type(:lxca_job).provider(:lxca_job) do
   let :job do
     Puppet::Type.type(:lxca_job).new(
       :name => 'lxca_job',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
     )
   end
@@ -40,10 +40,10 @@ describe Puppet::Type.type(:lxca_job).provider(:lxca_job) do
   let :job_with_deviceid do
     Puppet::Type.type(:lxca_job).new(
       :name => 'lxca_job',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :uuid => 'F44E92339683385A8D97CD6348A6F45F'
     )
@@ -52,10 +52,10 @@ describe Puppet::Type.type(:lxca_job).provider(:lxca_job) do
   let :job_with_jobid do
     Puppet::Type.type(:lxca_job).new(
       :name => 'lxca_job',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :id => '6'
     )
@@ -64,10 +64,10 @@ describe Puppet::Type.type(:lxca_job).provider(:lxca_job) do
   let :job_with_state do
     Puppet::Type.type(:lxca_job).new(
       :name => 'lxca_job',
-      :host => 'https://10.243.10.75',
+      :host => 'https://10.240.29.217',
       :port => '443',
-      :login_user => 'Admin',
-      :login_password => 'Lenovo123',
+      :login_user => 'USERID',
+      :login_password => 'Passw0rd',
       :verify_ssl => 'NONE',
       :state => 'Complete'
     )
